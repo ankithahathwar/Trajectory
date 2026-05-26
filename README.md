@@ -5,7 +5,7 @@
 
 ---
 
-## 🚀 Project Vision: Bridging the "Mathematical Vacuum"
+## Project Vision: Bridging the "Mathematical Vacuum"
 
 Current autonomous models often output predictions in a **mathematical vacuum** — treating driving like a video game while ignoring real-world physical constraints. When this "perfect" math meets physical reality, systems fail. If an AI commands a physically impossible evasive maneuver, it forces ZF's physical steering and braking hardware to process **fault-inducing, catastrophic commands**.
 
@@ -13,7 +13,7 @@ Current autonomous models often output predictions in a **mathematical vacuum** 
 
 ---
 
-## 🔗 Resources & Datasets
+## Resources & Datasets
 
 | Resource | Link | Description |
 | :--- | :--- | :--- |
@@ -22,7 +22,7 @@ Current autonomous models often output predictions in a **mathematical vacuum** 
 
 ---
 
-## ✨ Simulation Workbench (Pro Edition)
+## Simulation Workbench (Pro Edition)
 
 The system includes a premium, dual-mode web interface at **[http://localhost:8000](http://localhost:8000)** featuring:
 
@@ -40,7 +40,7 @@ The system includes a premium, dual-mode web interface at **[http://localhost:80
 
 ---
 
-## 🛠 Technical Architecture
+## Technical Architecture
 
 KASMU v4 is a **3-stage predictive pipeline** generating Volatility-Scaled Asymmetric Safety Envelopes.
 
@@ -82,7 +82,7 @@ Instead of raw coordinates, the model predicts **Jerk** (j = da/dt) for three qu
 
 ---
 
-## 📊 Performance Benchmarks
+## Performance Benchmarks
 
 Audited across the **Argoverse 2 Motion Forecasting Dataset** (10,000 unique driving scenarios):
 
@@ -98,7 +98,7 @@ Audited across the **Argoverse 2 Motion Forecasting Dataset** (10,000 unique dri
 
 ---
 
-## 📈 Visual Audit Results & Reasoning
+## Visual Audit Results & Reasoning
 
 ### 1. Spatial Safety Analysis & Velocity Profile
 
@@ -179,7 +179,7 @@ Each dot = the final position error of one scenario at the end of the **3-second
 ---
 
 
-## 💻 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 | :--- | :--- |
@@ -192,7 +192,7 @@ Each dot = the final position error of one scenario at the end of the **3-second
 
 ---
 
-## 📦 Reproducibility & Installation
+## Reproducibility & Installation
 
 The model weights are included in this repository (`Model/`), so you do not need to train the model from scratch. However, if you wish to explore the training process, review the architecture implementation, or train it yourself, refer to the **Training Notebook** linked in the Resources section above.
 
@@ -224,7 +224,7 @@ python Simulation/api_server.py
 # http://localhost:8000/dashboard → Intelligence (Audit Dashboard)
 ```
 
-## 🛠 Project Structure
+## Project Structure
 
 ```
 Trajectory/
@@ -244,7 +244,7 @@ Trajectory/
 └── val/                     ← Argoverse 2 validation scenarios (gitignored)
 ```
 
-## 🎓 Team Apex
+## Team Apex
 
 - **Priyangshu Mukherjee** (Team Leader)
 - **Ankitha Hathwar T N**
